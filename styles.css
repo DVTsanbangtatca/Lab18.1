@@ -1,0 +1,45 @@
+/* .bg-img1 {
+  background-color: #000;
+  background-size: cover;
+  background-image: url(./hinhnen.jpg);
+  max-height: 40px;
+}
+.bg-img2 {
+  background-color: #000;
+  background-size: cover;
+  background-image: url(./hn2.jpg);
+  max-height: 80%;
+}
+.bg-img3 {
+  background-color: #000;
+  background-size: cover;
+  background-image: url(./hn3.jpg);
+  max-height: 80%;
+} */
+.bg-img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#carouselExampleCaptions .carousel-item {
+  height: 60vh !important;
+}
+.bg-img:nth-child(1) {
+  background-image: url("./02.jpg");
+}
+.bg-img:nth-child(2) {
+  background-image: url("./2002.jpg");
+}
+.bg-img:nth-child(3) {
+  background-image: url("./21.jpg");
+}
+.link {
+  display: flex;
+  padding-right: 50px;
+  padding-left: 80px;
+  padding-top: 130px;
+}
+.text {
+  display: flex;
+  padding-right: 860px;
+}
